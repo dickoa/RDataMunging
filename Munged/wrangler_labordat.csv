@@ -1,0 +1,7 @@
+"Id","Series title","Labor force status","Type of data","Age","Labor force experience","Occupation"
+"LNU02000000","(Unadj) Employment Level","Employed","Number in thousands","16 years and over",NA,NA
+"LNU03000000","(Unadj) Unemployment Level","Unemployed","Number in thousands","16 years and over",NA,NA
+"LNU04000000","(Unadj) Unemployment Level","Unemployed","Number in thousands","16 years and over",NA,NA
+"LNU02032201","(Unadj) Employment Level - Management, Professional, and Related Occupations","Employed","Number in thousands","16 years and over",NA,"Management, professional, and related occupations (0008-3540)"
+"LNU05000000","(Unadj) Unemployment Level","Unemployed","Number in thousands","16 years and over",NA,NA
+"LNU03032215","(Unadj) Unemployment Level - Management, Professional, and Related Occupations","Unemployed","Number in thousands","16 years and over","Experienced","Management, professional, and related occupations (0008-3540)"
