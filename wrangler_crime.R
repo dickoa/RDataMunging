@@ -10,9 +10,10 @@ unmunged <- unmunged[sapply(unmunged, nchar) > 0]
 ### extract City name
 unmunged <- str_replace_all(unmunged, "^Reported crime in ", "")
 
-###
+### find cities name
 index <- str_locate_all(unmunged, "[A-Za-z]")
 Ind <- sapply(index, function(x) length(x) > 0)
+## number of repetition for cities name
 repind <- 5
 state <- unmunged[Ind]
 state <- str_replace(state, "\\,", "")
