@@ -66,7 +66,7 @@ othertrack <- as.data.frame(othertrack)
 resultclean <- as.data.frame(resultclean)
 finalresult <- rbind(resultclean, othertrack)
 finalresult <- arrange(finalresult, Artist, Label, Label, Released)
-finalresult
+finalresult$Released <- as.numeric(as.character(finalresult$Released))
 ### save data
 write.csv(finalresult, "./Munged/DMWPC8_cd_long.csv", row.names = FALSE)
 
